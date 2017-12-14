@@ -16,15 +16,18 @@ let contactList = [
     {id: 11, name: 'Petyr Baelish', email: 'petyr@baelishindustries.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Do not trust anyone.'},
   ];
 
+//Develop GET /contacts API to list all contacts
 router.get('/contacts', (req, res) => {
     res.json(contactList)
 })
 
+//Develop GET /contact/:id API to get contact information
 router.get('/contacts/:id', (req, res) => {
     let id = req.params.id
     res.json(contactList[id])
 })
 
+//Develop POST /contacts API to create new contact
 router.post('/contacts', (req, res) => {
     let newContact = req.body
     newContact.id = contactList.length
@@ -32,12 +35,15 @@ router.post('/contacts', (req, res) => {
     res.status(201).json(newContact)
 })
 
+//Develop PUT /contact/:id API to update contact information
 router.put('/contacts/:id', (req, res) => {
     let contact = req.body
     let id = req.params.id
     contactList[id] = contact
     res.status(200).json()
 })
+
+//Develop DELETE /contacts/:id API to remove contact from list
 router.delete('/contacts/:id', (req, res) => {
     let id = req.params.id
     contactList.splice(id, 1)
