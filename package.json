@@ -1,7 +1,7 @@
 {
   "name": "webproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "57160664 นายสุทธิเกียรติ มุงขุนทด\r <br>57660062 นายวรพรต สุขสวัสดิ์\r <br>57160626 นางสาวชลธิชา สีดา",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/57160664/WebProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/57160664/WebProject/issues"
+  },
+  "homepage": "https://github.com/57160664/WebProject#readme"
 }
