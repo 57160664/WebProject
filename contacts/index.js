@@ -2,18 +2,24 @@ const express = require('express')
 const router = express.Router()
 
 let contactList = [
-    {id: 0, name: 'Kong', email: 'ned@winterfell.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Winter is coming.'},
-    {id: 1, name: 'Theon', email: 'tgreyjoy@winterfell.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Reluctant to pay iron price.'},
-    {id: 2, name: 'Samwell', email: 'starly@castleblack.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Loyal brother of the watch.'},
-    {id: 3, name: 'Snow', email: 'jsnow@castleblack.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Knows nothing.'},
-    {id: 4, name: 'Stark', email: 'waterdancer@winterfell.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Has a list of names.'},
-    {id: 5, name: 'Jora Mormont', email: 'khaleesifan100@gmail.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Lost in the friend-zone.'},
-    {id: 6, name: 'Tyrion Lannister', email: 'tyrion@lannister.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Currently drunk.'},
-    {id: 7, name: 'Stannis Baratheon', email: 'onetrueking@dragonstone.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Nobody expects the Stannish inquisition.'},
-    {id: 8, name: 'Hodor', email: 'hodor@hodor.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Hodor? Hodor... Hodor!'},
-    {id: 9, name: 'Margaery Tyrell', email: 'mtyrell@highgarden.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Keeper of kings.'},
-    {id: 10, name: 'Brienne of Tarth', email: 'oathkeeper@gmail.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Do not cross her.'},
-    {id: 11, name: 'Petyr Baelish', email: 'petyr@baelishindustries.com', phone: '123-456-7890', url: 'www.google.com', notes: 'Do not trust anyone.'},
+    {id: 0, name: 'Chonticha Seeda', email: '57160626@go.buu.ac.th', phone: '0845300080'},
+
+    {id: 1, name: 'Woraprot Suksawat', email: '57660062@go.buu.ac.th', phone: '0805746734'},
+
+    {id: 2, name: 'Suwijak Thepwichian', email: '57550532@go.buu.ac.th', phone: '0633800099'},
+
+    {id: 3, name: 'Sootthikiat Mungkhunthod', email: '57160664@go.buu.ac.th', phone: '08111123465'},
+
+    {id: 4, name: 'Meena Rukna', email: '5716778@go.buu.ac.th', phone: '0856123789'},
+
+    {id: 5, name: 'Monthikan Wongratanapiboon', email: '57160477@go.buu.ac.th', phone: '0887632569'},
+
+    {id: 6, name: 'Kanok Jantarasirijan', email: '57550522@go.buu.ac.th', phone: '0891236578'},
+
+    {id: 7, name: 'Piyabut Nawanitbumrung', email: '57160638@go.buu.ac.th', phone: '0876234980'},
+
+    {id: 8, name: 'Nuchanad Banmai', email: '57667788@go.buu.ac.th', phone: '0923578125'},
+
   ];
 
 //Develop GET /contacts API to list all contacts
