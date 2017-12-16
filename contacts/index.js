@@ -8,7 +8,7 @@ let contactList = [
 
     {id: 2, name: 'Suwijak Thepwichian', email: '57550532@go.buu.ac.th', phone: '0633800099'},
 
-    {id: 3, name: 'Sootthikiat Mungkhunthod', email: '57160664@go.buu.ac.th', phone: '08111123465'},
+    {id: 3, name: 'Suttikiat Moongkhunthod', email: '57160664@go.buu.ac.th', phone: '0853296282'},
 
     {id: 4, name: 'Meena Rukna', email: '5716778@go.buu.ac.th', phone: '0856123789'},
 
@@ -19,6 +19,10 @@ let contactList = [
     {id: 7, name: 'Piyabut Nawanitbumrung', email: '57160638@go.buu.ac.th', phone: '0876234980'},
 
     {id: 8, name: 'Nuchanad Banmai', email: '57667788@go.buu.ac.th', phone: '0923578125'},
+
+    {id: 9, name: 'Somnuek Dischuay', email: '57160659@go.buu.ac.th', phone: '0879587335'},
+    
+    {id: 10, name: 'Kongpob Leela', email: '57160215@go.buu.ac.th', phone: '0899655711'},
 
   ];
 
